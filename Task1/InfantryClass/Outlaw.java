@@ -1,4 +1,4 @@
-package Game.InfantryClass;
+package OOP.Task1.InfantryClass;
 
 public class Outlaw extends InfantryClass {
 

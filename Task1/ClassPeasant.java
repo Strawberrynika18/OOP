@@ -1,3 +1,4 @@
+package OOP.Task1;
 public class ClassPeasant extends BaseHero {
 
     public int energy = 6;

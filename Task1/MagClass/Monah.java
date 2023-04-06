@@ -1,4 +1,4 @@
-package Game.MagClass;
+package OOP.Task1.MagClass;
 
 public class Monah extends MagClass {
 

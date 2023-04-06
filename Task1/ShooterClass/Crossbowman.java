@@ -1,4 +1,4 @@
-package Game.ShooterClass;
+package OOP.Task1.ShooterClass;
 
 public class Crossbowman extends ShooterClass {
 

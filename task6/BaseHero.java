@@ -1,7 +1,8 @@
-package OOP.task4;
+package OOP.task6;
 
 import java.util.Random;
 import java.util.ArrayList;
+
 
 
 public abstract class BaseHero implements Interface {
@@ -56,13 +57,13 @@ public abstract class BaseHero implements Interface {
     }
 
     @Override
-    public void step (ArrayList<BaseHero> team1, ArrayList<BaseHero> team2){
+    public void step(ArrayList<BaseHero> team1, ArrayList<BaseHero> team2){
     };
 
     @Override
     public String getInfo(){
-        String outStr = String.format("\t%-3s\t╳ %-3d\t\uD83D\uDEE1 %-3d\t♥️%-3d%%\t☠%-3d\t" , 0,0 , protection,(int) hp * 100/maxHp, damage);
-        return outStr;
+        String outStr = String.format("\t%-3s\tскорость:%-3d\tзащита:%-3d\thp:%-3d\tурон:%-3d\t " , getName(),speed,protection,(int) hp * 100/maxHp,damage);
+        return outStr; 
     }
 
     public int getSpeed() {
@@ -78,6 +79,6 @@ public abstract class BaseHero implements Interface {
     }
 
     public String getName() {
-        return "base";
+        return "baseHero";
     }
 }

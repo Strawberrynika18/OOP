@@ -1,4 +1,4 @@
-package OOP.task3;
+package OOP.task6;
 
 import java.util.ArrayList;
 
@@ -13,12 +13,12 @@ public class ClassPeasant extends BaseHero {
 
     @Override
     public void step(ArrayList<BaseHero> team1, ArrayList<BaseHero> team2) {
-        // System.out.println("Очередь Крестьянина!");
+        
     }
 
     @Override
-    public String getInfo() {
-        return "Paesant";
+    public String getName() {
+        return "Крестьянин";
     }
-
+  
 }

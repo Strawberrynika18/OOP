@@ -1,5 +1,5 @@
 /* класс магов*/
-package Game.MagClass;
+package OOP.Task1.MagClass;
 
 import Game.BaseHero;
 

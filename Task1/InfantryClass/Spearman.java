@@ -1,4 +1,4 @@
-package InfantryClass;
+package OOP.Task1.InfantryClass;
 
 public class Spearman extends InfantryClass {
 

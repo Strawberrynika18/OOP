@@ -1,3 +1,4 @@
+package OOP.Task1;
 
 public class BaseHero {
     // private static int number;

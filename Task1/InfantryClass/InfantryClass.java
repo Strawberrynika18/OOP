@@ -1,6 +1,6 @@
-package Game.InfantryClass;
+package OOP.Task1.InfantryClass;
 
-import Game.BaseHero;
+import Task1.BaseHero;
 
 public class InfantryClass extends BaseHero {
 
